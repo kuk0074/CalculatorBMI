@@ -11,7 +11,7 @@ public class Calculator {
         try {
             personData();
         } catch (InputMismatchException e) {
-            System.err.println("Wrong input.");
+            System.err.println("Wrong input. Try again.");
         }
 
     }
